@@ -33,7 +33,7 @@ class BasicLayout extends React.Component {
           >
             {this.menus.map(menu => (
               <Menu.Item key={menu.key}>
-                <Link to={`/ + ${menu.key}`}>
+                <Link to={`${'/' + menu.key}`}>
                   <Icon type={menu.icon}/>
                   {formatMessage({ id: menu.messageId })}
                 </Link>
