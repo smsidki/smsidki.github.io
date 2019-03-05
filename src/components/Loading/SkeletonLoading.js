@@ -2,7 +2,7 @@ import React from 'react';
 import { List, Menu, Row } from 'antd';
 import Skeleton from 'react-skeleton-loader';
 
-class PageLoading extends React.Component {
+class SkeletonLoading extends React.Component {
 
   buildMenuItemSkeleton = (amount) => {
     let i;
@@ -49,4 +49,4 @@ class PageLoading extends React.Component {
 
 }
 
-export default PageLoading;
+export default SkeletonLoading;

@@ -12,7 +12,7 @@ export default {
       dva: true,
       dynamicImport: {
         webpackChunkName: true,
-        loadingComponent: './components/Loading/PageLoading.js'
+        loadingComponent: './components/Loading/SkeletonLoading.js'
       },
       title: 'smsidki.github.io',
       dll: true,
