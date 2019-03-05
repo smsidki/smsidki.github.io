@@ -29,11 +29,13 @@ class SkeletonLoading extends React.Component {
   render() {
     return (
       <>
+        {/*
         <Row type={'flex'} justify={'center'}>
           <Menu mode={'horizontal'}>
             {this.buildMenuItemSkeleton(6)}
           </Menu>
         </Row>
+        */}
         <br/>
         <br/>
         <Row type={'flex'} justify={'center'}>
