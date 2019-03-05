@@ -10,7 +10,10 @@ export default {
     ['umi-plugin-react', {
       antd: true,
       dva: true,
-      dynamicImport: { webpackChunkName: true },
+      dynamicImport: {
+        webpackChunkName: true,
+        loadingComponent: './components/Loading/PageLoading.js'
+      },
       title: 'smsidki.github.io',
       dll: true,
       locale: {
