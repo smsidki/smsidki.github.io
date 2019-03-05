@@ -7,7 +7,7 @@ import { formatMessage, getLocale, setLocale } from 'umi/locale';
 class BasicLayout extends React.Component {
 
   state = {
-    currentMenu: 'about',
+    currentMenu: _.replace(this.props.location.pathname, '/', ''),
   };
 
   locales = [
