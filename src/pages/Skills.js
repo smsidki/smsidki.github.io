@@ -1,7 +1,7 @@
 export default () => {
   return (
     <div>
-      <h1>Blog Page . . .</h1>
+      <h1>Skills Page . . .</h1>
     </div>
   );
 }
