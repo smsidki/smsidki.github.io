@@ -1,10 +1,3 @@
-import Link from 'umi/link';
+import Redirect from 'umi/redirect';
 
-export default function() {
-  return (
-    <div>
-      <h2>In progress . . .</h2>
-      <Link to={'/blog'}>Blog</Link>
-    </div>
-  );
-}
+export default () => <Redirect to={'/about'}/>
