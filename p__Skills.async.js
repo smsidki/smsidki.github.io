@@ -1,0 +1,1 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([[8],{Fna9:function(e,n,a){"use strict";a.r(n);var t=a("q1tI"),l=a.n(t);n["default"]=(()=>{return l.a.createElement("div",null,l.a.createElement("h1",null,"Skills Page . . ."))})}}]);

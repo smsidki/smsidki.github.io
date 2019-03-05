@@ -1,0 +1,1 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([[6],{N2Ca:function(e,n,t){"use strict";t.r(n);var a=t("q1tI"),r=t.n(a);n["default"]=(()=>{return r.a.createElement("div",null,r.a.createElement("h1",null,"Projects Page . . ."))})}}]);
