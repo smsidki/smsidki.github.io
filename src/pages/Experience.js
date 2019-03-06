@@ -16,7 +16,7 @@ class Experience extends React.Component {
   experiences = [
     {
       icon: nexsoft,
-      iconBackground: '#ecb4a7',
+      iconBackground: '#ef4123',
       company: 'Paramadaksa Teknologi Nusantara (NexSoft)',
       location: 'Tangerang, Indonesia',
       role: 'Team Leader, Full Stack Web Engineer',
@@ -36,7 +36,7 @@ class Experience extends React.Component {
       iconBackground: '#003a81',
       company: 'Pactera Jatis Indonesia',
       location: 'Jakarta, Indonesia',
-      role: 'Technical Leader, Associate Business Technologist',
+      role: 'Team Leader, Associate Business Technologist',
       stacks: ['Java', 'Spring', 'ZKoss', 'SQL Server', 'Subversion'],
       duration: '2016 - 2017'
     }
