@@ -20,25 +20,25 @@ class Experience extends React.Component {
       company: 'Paramadaksa Teknologi Nusantara (NexSoft)',
       location: 'Tangerang, Indonesia',
       role: 'Team Leader, Full Stack Web Engineer',
-      stacks: ['Java', 'Spring Boot', 'React', 'Umi'],
-      duration: '2018 - present'
+      stacks: ['Java', 'Spring Boot', 'MySQL', 'Elastic', 'React', 'Git'],
+      duration: '2017 - present'
     },
     {
       icon: conexus,
       company: 'Conexus Solusi',
       location: 'Jakarta, Indonesia',
-      role: 'Team Leader, Software Engineer',
-      stacks: ['Java', 'Spring Boot', 'BPMN', 'Micro Service'],
-      duration: '2018'
+      role: 'Software Engineer',
+      stacks: ['Java', 'Spring Cloud', 'BPMN', 'PostgreSQL', 'Subversion'],
+      duration: '2017'
     },
     {
       icon: pactera,
       iconBackground: '#003a81',
       company: 'Pactera Jatis Indonesia',
       location: 'Jakarta, Indonesia',
-      role: 'Associate Business Technologist, Technical Leader',
-      stacks: ['Java', 'Spring', 'Struts', 'React', 'SQL Server'],
-      duration: '2016 - 2018'
+      role: 'Technical Leader, Associate Business Technologist',
+      stacks: ['Java', 'Spring', 'ZKoss', 'SQL Server', 'Subversion'],
+      duration: '2016 - 2017'
     }
   ];
 
