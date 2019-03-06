@@ -19,7 +19,8 @@
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-loading-skeleton": "^1.0.0",
-    "react-skeleton-loader": "^1.0.4"
+    "react-skeleton-loader": "^1.0.4",
+    "react-vertical-timeline-component": "^2.3.1"
   },
   "devDependencies": {
     "babel-eslint": "^9.0.0",
