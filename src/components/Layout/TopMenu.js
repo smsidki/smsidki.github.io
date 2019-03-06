@@ -21,18 +21,18 @@ class TopMenu extends React.Component {
     { key: 'projects', icon: 'code', messageId: 'projects' },
     { key: 'skills', icon: 'radar-chart', messageId: 'skills' },
     { key: 'education', icon: 'read', messageId: 'education' },
-    { key: 'resume', icon: 'book', messageId: 'resume' }
   ];
 
   onMenuClick = e => {
     if (_.map(this.locales, 'key').includes(e.key)) {
       setLocale(e.key);
-    } else {
+    } else if ('resume' !== e.key) {
       this.setState({ currentMenu: e.key });
     }
   };
 
   render() {
+    // noinspection RequiredAttributes
     return (
       <div>
         <Row type={'flex'} justify={'center'}>
@@ -49,6 +49,15 @@ class TopMenu extends React.Component {
                 </Link>
               </Menu.Item>
             ))}
+            <Menu.Item key={'resume'}>
+              <a
+                target='_blank'
+                rel='noopener noreferrer'
+                href='https://drive.google.com/file/d/0B_5PrdOsPnCARWx5VUJnWjZZLUk/view'>
+                <Icon type={'book'}/>
+                {formatMessage({ id: 'resume' })}
+              </a>
+            </Menu.Item>
             <Menu.SubMenu
               key={'locale'}
               title={

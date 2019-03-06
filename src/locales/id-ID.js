@@ -6,6 +6,7 @@ export default {
   'locale.change': 'Ganti Bahasa',
   'locale.en': 'English',
   'locale.id': 'Bahasa Indonesia',
+  'on.progress': 'Sedang dibikin cuy',
   'projects': 'Aplikasi',
   'resume': 'CV',
   'skills': 'Keahlian',

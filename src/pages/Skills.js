@@ -2,10 +2,6 @@
  * title: smsidki | Skills
  */
 
-export default () => {
-  return (
-    <div>
-      <h1>Skills Page . . .</h1>
-    </div>
-  );
-}
+import OnProgress from '@/components/Maintenance/OnProgress';
+
+export default () => <OnProgress/>;

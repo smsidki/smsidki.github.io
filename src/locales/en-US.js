@@ -6,6 +6,7 @@ export default {
   'locale.change': 'Change Language',
   'locale.en': 'English',
   'locale.id': 'Bahasa Indonesia',
+  'on.progress': 'Under construction',
   'projects': 'Projects',
   'resume': 'Resume',
   'skills': 'Skills',
