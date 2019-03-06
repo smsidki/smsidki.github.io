@@ -28,7 +28,7 @@ class SkeletonLoading extends React.Component {
 
   render() {
     return (
-      <>
+      <div style={{ height: '100%', display: 'grid' }}>
         {/*
         <Row type={'flex'} justify={'center'}>
           <Menu mode={'horizontal'}>
@@ -36,16 +36,14 @@ class SkeletonLoading extends React.Component {
           </Menu>
         </Row>
         */}
-        <br/>
-        <br/>
-        <Row type={'flex'} justify={'center'}>
+        <Row type={'flex'} justify={'center'} style={{ margin: 'auto' }}>
           <List
             split={false}
             dataSource={this.buildListSkeleton(11)}
             renderItem={item => (<List.Item>{item}</List.Item>)}
           />
         </Row>
-      </>
+      </div>
     );
   }
 
