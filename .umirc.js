@@ -4,6 +4,12 @@
 export default {
   history: 'hash',
   treeShaking: true,
+  copy: [
+    {
+      to: './',
+      from: './deploy'
+    }
+  ],
   plugins: [
     // ref: https://umijs.org/plugin/umi-plugin-react.html
     'umi-plugin-gh-pages',
