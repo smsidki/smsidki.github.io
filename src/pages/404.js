@@ -1,7 +1,5 @@
 /**
  * title: smsidki | Oops . . .
- * Routes:
- *   - ./src/components/Layout/TopMenu.js
  */
 
 import React from 'react';

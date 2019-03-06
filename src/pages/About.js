@@ -1,7 +1,5 @@
 /**
  * title: smsidki | About
- * Routes:
- *   - ./src/components/Layout/TopMenu.js
  */
 
 export default () => {
