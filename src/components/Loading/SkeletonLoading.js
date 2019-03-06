@@ -11,7 +11,7 @@ class SkeletonLoading extends React.Component {
       results.push(
         <Menu.Item key={i} disabled={true}>
           <Skeleton width={'115px'} widthRandomness={0}/>
-        </Menu.Item>
+        </Menu.Item>,
       );
     }
     return results;
@@ -29,13 +29,11 @@ class SkeletonLoading extends React.Component {
   render() {
     return (
       <>
-        {/*
         <Row type={'flex'} justify={'center'}>
           <Menu mode={'horizontal'}>
             {this.buildMenuItemSkeleton(6)}
           </Menu>
         </Row>
-        */}
         <br/>
         <br/>
         <Row type={'flex'} justify={'center'}>

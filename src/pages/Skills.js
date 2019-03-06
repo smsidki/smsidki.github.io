@@ -1,3 +1,9 @@
+/**
+ * title: smsidki | Skills
+ * Routes:
+ *   - ./src/components/Layout/TopMenu.js
+ */
+
 export default () => {
   return (
     <div>

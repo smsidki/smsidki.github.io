@@ -14,7 +14,7 @@ export default {
         webpackChunkName: true,
         loadingComponent: './components/Loading/SkeletonLoading.js'
       },
-      title: 'smsidki.github.io',
+      title: 'smsidki',
       dll: true,
       locale: {
         enable: true,

@@ -1,3 +1,9 @@
+/**
+ * title: smsidki | Oops . . .
+ * Routes:
+ *   - ./src/components/Layout/TopMenu.js
+ */
+
 import React from 'react';
 import router from 'umi/router';
 import { Button, Icon } from 'antd';
