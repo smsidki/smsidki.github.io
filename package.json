@@ -3,10 +3,13 @@
   "scripts": {
     "start": "umi dev",
     "build": "umi build",
+    "prebuild": "rimraf dist",
+    "clean": "rimraf dist",
     "test": "umi test",
     "lint": "eslint --ext .js src mock tests",
     "precommit": "lint-staged",
-    "deploy": "gh-pages -b master -d dist"
+    "deploy": "gh-pages -b master -d dist",
+    "predeploy": "rimraf dist && umi build"
   },
   "dependencies": {
     "ant-design-pro": "^2.2.1",
