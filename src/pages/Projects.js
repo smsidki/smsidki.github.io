@@ -3,80 +3,69 @@
  */
 
 import React from 'react';
-import { Avatar, Col, List, Row } from 'antd';
+import { Avatar, Col, List, Row, Tag } from 'antd';
 import avantrade from '@/assets/img/avantrade.png';
+import tlStyle from '@/assets/style/timeline.css';
+import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component/dist-es6';
+import nexsoft from '@/assets/img/nexsoft.png';
+import conexus from '@/assets/img/conexus.png';
+import pactera from '@/assets/img/pactera.png';
 
 class Projects extends React.Component {
 
-  data = [
+  projects = [
     {
-      title: 'Ant Design Title 1',
+      icon: nexsoft,
+      iconBackground: '#ef4123',
+      company: 'Paramadaksa Teknologi Nusantara (NexSoft)',
+      name: 'NexPayment',
+      role: 'Team Leader, Full Stack Web Engineer',
+      stacks: ['Java', 'Spring Boot', 'MySQL', 'Elastic', 'React', 'Git'],
+      duration: '2017 - present'
     },
     {
-      title: 'Ant Design Title 2',
+      icon: conexus,
+      company: 'Conexus Solusi',
+      name: 'Jakarta, Indonesia',
+      role: 'Software Engineer',
+      stacks: ['Java', 'Spring Cloud', 'BPMN', 'PostgreSQL', 'Subversion'],
+      duration: '2017'
     },
     {
-      title: 'Ant Design Title 3',
-    },
-    {
-      title: 'Ant Design Title 4',
-    },
+      icon: pactera,
+      iconBackground: '#003a81',
+      company: 'Pactera Jatis Indonesia',
+      name: 'Jakarta, Indonesia',
+      role: 'Team Leader, Associate Business Technologist',
+      stacks: ['Java', 'Spring', 'ZKoss', 'SQL Server', 'Subversion'],
+      duration: '2016 - 2017'
+    }
   ];
 
   render() {
     return (
-      <div>
-        <br/>
-        <Row type={'flex'} justify={'space-around'} align={'top'}>
-          <Col span={10}>
-            <List
-              itemLayout={'horizontal'}
-              dataSource={this.data}
-              renderItem={item => (
-                <List.Item>
-                  <List.Item.Meta
-                    avatar={
-                      <Avatar
-                        src={avantrade}
-                        shape={'square'}
-                        style={{ backgroundColor: '#e3e3e3' }}
-                      />
-                    }
-                    title={<a href='https://ant.design'>{item.title}</a>}
-                    description={'Ant Design, a design language for background applications, is refined by Ant UED'}
-                  />
-                </List.Item>
-              )}
-            />
-          </Col>
-          <Col span={10}>
-            <List
-              itemLayout={'horizontal'}
-              dataSource={this.data}
-              renderItem={item => (
-                <List.Item>
-                  <List.Item.Meta
-                    avatar={
-                      <Avatar
-                        src={avantrade}
-                        shape={'square'}
-                        style={{ backgroundColor: '#e3e3e3' }}
-                      />
-                    }
-                    title={<a href='https://ant.design'>{item.title}</a>}
-                    description={
-                      <div>
-                        <p>{'Ant Design, a design language for background applications, is refined by Ant UED'}</p>
-                        <p>{'Ant Design, a design language for background applications, is refined by Ant UED'}</p>
-                        <p>{'Ant Design, a design language for background applications, is refined by Ant UED'}</p>
-                      </div>
-                    }
-                  />
-                </List.Item>
-              )}
-            />
-          </Col>
-        </Row>
+      <div className={tlStyle.main}>
+        <VerticalTimeline layout={'2-columns'}>
+          {this.projects.map((exp, index) => (
+            <VerticalTimelineElement
+              key={index}
+              className="vertical-timeline-element--work"
+              date={exp.duration}
+              iconStyle={{ background: exp.iconBackground || 'white', color: 'white' }}
+              icon={<img src={exp.icon} alt={'n/a'} className={'vertical-timeline-element-icon bounce-in'}/>}
+            >
+              <h3 className="vertical-timeline-element-title">{exp.name}</h3>
+              <h4>{exp.company}</h4>
+              <p>{exp.role}</p>
+              <div>
+                {'Tech Stacks: '}
+                {exp.stacks.map((stack, index) => (
+                  <Tag key={index} color={'blue'}>{stack}</Tag>
+                ))}
+              </div>
+            </VerticalTimelineElement>
+          ))}
+        </VerticalTimeline>
       </div>
     );
   }
