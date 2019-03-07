@@ -19,6 +19,7 @@ class Experience extends React.Component {
       iconBackground: '#ef4123',
       company: 'Paramadaksa Teknologi Nusantara (NexSoft)',
       location: 'Tangerang, Indonesia',
+      website: 'http://nexsoft.co.id/',
       role: 'Team Leader, Full Stack Web Engineer',
       stacks: ['Java', 'Spring Boot', 'MySQL', 'Elastic', 'React', 'Git'],
       duration: '2017 - present'
@@ -27,6 +28,7 @@ class Experience extends React.Component {
       icon: conexus,
       company: 'Conexus Solusi',
       location: 'Jakarta, Indonesia',
+      website: 'https://conexus.co.id/',
       role: 'Software Engineer',
       stacks: ['Java', 'Spring Cloud', 'BPMN', 'PostgreSQL', 'Subversion'],
       duration: '2017'
@@ -36,11 +38,16 @@ class Experience extends React.Component {
       iconBackground: '#003a81',
       company: 'Pactera Jatis Indonesia',
       location: 'Jakarta, Indonesia',
+      website: 'http://www.jatis.com/index.php/pactera-jatis-indonesia/',
       role: 'Team Leader, Associate Business Technologist',
       stacks: ['Java', 'Spring', 'ZKoss', 'SQL Server', 'Subversion'],
       duration: '2016 - 2017'
     }
   ];
+
+  goToCompanySite = (e) => {
+    window.open(e.target.alt, '_blank');
+  };
 
   render() {
     return (
@@ -49,10 +56,11 @@ class Experience extends React.Component {
           {this.experiences.map((exp, index) => (
             <VerticalTimelineElement
               key={index}
-              className="vertical-timeline-element--work"
               date={exp.duration}
+              iconOnClick={this.goToCompanySite}
+              className="vertical-timeline-element--work"
               iconStyle={{ background: exp.iconBackground || 'white', color: 'white' }}
-              icon={<img src={exp.icon} alt={'n/a'} className={'vertical-timeline-element-icon bounce-in'}/>}
+              icon={<img src={exp.icon} alt={exp.website} className={'vertical-timeline-element-icon bounce-in'}/>}
             >
               <h3 className="vertical-timeline-element-title">{exp.company}</h3>
               <h4>{exp.location}</h4>
