@@ -1,7 +1,7 @@
 import React from 'react';
 import { List, Menu, Row } from 'antd';
 import Skeleton from 'react-skeleton-loader';
-import SkillsPageSkeleton from '@/components/Loading/Page/SkillsPageSkeleton';
+import SkillsPageSkeleton from '@/components/Loading/SkillsPageSkeleton';
 
 class SkeletonLoading extends React.Component {
 
