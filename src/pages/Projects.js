@@ -24,7 +24,7 @@ class Projects extends React.Component {
       name: 'NexPayment',
       company: 'Paramadaksa Teknologi Nusantara (NexSoft)',
       desc: 'Middleware between NexSoft application and payment gateway',
-      stacks: ['Java', 'Spring Boot', 'MySQL', 'Elastic', 'React', 'Git'],
+      stacks: ['Spring Boot', 'Web Socket', 'Redis', 'MySQL', 'React'],
       duration: '2019'
     },
     {
@@ -33,7 +33,7 @@ class Projects extends React.Component {
       name: 'NexHouse',
       company: 'Paramadaksa Teknologi Nusantara (NexSoft)',
       desc: 'A warehouse management system application for retail industry',
-      stacks: ['Java', 'Spring Boot', 'MySQL', 'Elastic', 'React', 'Git'],
+      stacks: ['Spring Boot', 'Redis', 'MySQL', 'Elastic', 'React', 'Umi'],
       duration: '2018 - 2019'
     },
     {
@@ -41,7 +41,7 @@ class Projects extends React.Component {
       name: 'NexBank - BCA',
       company: 'Paramadaksa Teknologi Nusantara (NexSoft)',
       desc: 'Provide and manage mutation data from BCA to NexSoft clients',
-      stacks: ['Java', 'Spring Boot', 'MySQL', 'Elastic', 'React', 'Git'],
+      stacks: ['Spring Boot', 'Quartz Scheduler', 'Liquibase', 'MySQL'],
       duration: '2018'
     },
     {
@@ -49,7 +49,7 @@ class Projects extends React.Component {
       name: 'NexCloud - Qlik Sense',
       company: 'Paramadaksa Teknologi Nusantara (NexSoft)',
       desc: 'Manage and embed Qlik Sense application to NexCloud',
-      stacks: ['Java', 'Spring Boot', 'MySQL', 'Elastic', 'React', 'Git'],
+      stacks: ['Spring', 'Hibernate', 'MySQL', 'JSP'],
       duration: '2018'
     },
     {
@@ -58,7 +58,7 @@ class Projects extends React.Component {
       name: 'NexData - Master Area',
       company: 'Paramadaksa Teknologi Nusantara (NexSoft)',
       desc: 'Library and API endpoint for master data area',
-      stacks: ['Java', 'Spring Boot', 'MySQL', 'Elastic', 'React', 'Git'],
+      stacks: ['Spring Boot', 'Liquibase', 'MySQL', 'Elastic'],
       duration: '2018'
     },
     {
@@ -67,7 +67,7 @@ class Projects extends React.Component {
       name: 'NexMint - Foundation',
       company: 'Paramadaksa Teknologi Nusantara (NexSoft)',
       desc: 'Common library to develop REST Api using Spring Boot',
-      stacks: ['Java', 'Spring Boot', 'MySQL', 'Elastic', 'React', 'Git'],
+      stacks: ['Spring Boot', 'Security', 'MapStruct', 'MySQL', 'Elastic'],
       duration: '2018'
     },
     {
@@ -76,7 +76,7 @@ class Projects extends React.Component {
       name: 'NexFinance',
       company: 'Paramadaksa Teknologi Nusantara (NexSoft)',
       desc: 'Finance application for accounting process (journal)',
-      stacks: ['Java', 'Spring Boot', 'MySQL', 'Elastic', 'React', 'Git'],
+      stacks: ['Spring Boot', 'Spring Data JPA', 'MySQL', 'React', 'Redux'],
       duration: '2017 - 2018'
     },
     {
@@ -84,7 +84,7 @@ class Projects extends React.Component {
       name: 'Digi-Office',
       company: 'Conexus Solusi',
       desc: 'An information system to manage common office operation',
-      stacks: ['Java', 'Spring Cloud', 'BPMN', 'PostgreSQL', 'Subversion'],
+      stacks: ['Spring Boot', 'Camunda', 'BPMN', 'DMN', 'PostgreSQL'],
       duration: '2017'
     },
     {
@@ -92,7 +92,7 @@ class Projects extends React.Component {
       name: 'AstraLife - Satellite',
       company: 'Pactera Jatis Indonesia',
       desc: 'Report and scheduling module for AstraLife application',
-      stacks: ['Java', 'Spring', 'ZKoss', 'SQL Server', 'Subversion'],
+      stacks: ['Spring', 'Quartz Scheduler', 'Apache POI', 'Thymeleaf'],
       duration: '2017'
     },
     {
@@ -100,7 +100,7 @@ class Projects extends React.Component {
       name: 'Tokio Marine',
       company: 'Pactera Jatis Indonesia',
       desc: 'Migrate existing system from Spring to Apache Struts 2',
-      stacks: ['Java', 'Spring', 'ZKoss', 'SQL Server', 'Subversion'],
+      stacks: ['Spring', 'EJB 2', 'Oracle DB', 'Apache Struts 2', 'JSP'],
       duration: '2016 - 2017'
     },
     {
@@ -108,7 +108,7 @@ class Projects extends React.Component {
       name: 'ALIS - Asperindo',
       company: 'Pactera Jatis Indonesia',
       desc: 'Provide interconnection between Asperindo members',
-      stacks: ['Java', 'Spring', 'ZKoss', 'SQL Server', 'Subversion'],
+      stacks: ['NPM', 'React', 'React - Redux', 'Babel', 'Webpack'],
       duration: '2016'
     },
     {
@@ -116,7 +116,7 @@ class Projects extends React.Component {
       name: 'Avantrade - ANZ',
       company: 'Pactera Jatis Indonesia',
       desc: 'Platform for financial institutions’ wealth management needs',
-      stacks: ['Java', 'Spring', 'ZKoss', 'SQL Server', 'Subversion'],
+      stacks: ['Spring', 'Hibernate', 'Apache POI', 'SQL Server', 'ZKoss'],
       duration: '2016'
     }
   ];
