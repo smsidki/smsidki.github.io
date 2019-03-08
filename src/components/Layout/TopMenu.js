@@ -7,9 +7,13 @@ import { formatMessage, getLocale, setLocale } from 'umi/locale';
 
 class TopMenu extends React.Component {
 
-  state = {
-    currentMenu: _.replace(this.props.location.pathname, '/', ''),
-  };
+  constructor(props) {
+    super(props);
+    const { location } = props;
+    this.state = {
+      currentMenu: location.pathname === '/' ? 'about' : _.replace(location.pathname, '/', ''),
+    };
+  }
 
   locales = [
     { key: 'en-US', messageId: 'locale.en' },
