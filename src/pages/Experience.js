@@ -40,7 +40,7 @@ class Experience extends React.Component {
       location: 'Jakarta, Indonesia',
       website: 'http://www.jatis.com/index.php/pactera-jatis-indonesia/',
       role: 'Team Leader, Associate Business Technologist',
-      stacks: ['Java', 'Spring', 'ZKoss', 'SQL Server', 'Subversion'],
+      stacks: ['Java', 'Spring', 'ZKoss', 'SQL Server', 'Git', 'Subversion'],
       duration: '2016 - 2017'
     }
   ];
