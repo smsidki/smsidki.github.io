@@ -14,8 +14,10 @@ export default {
   'locale.en': 'English',
   'locale.id': 'Bahasa Indonesia',
   'on.progress': 'Under construction',
+  'present': 'Present',
   'projects': 'Projects',
   'resume': 'Resume',
   'skills': 'Skills',
+  'tech.stacks': 'Tech Stacks',
   'work.experience': 'Experience',
 }

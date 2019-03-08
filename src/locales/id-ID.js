@@ -14,8 +14,10 @@ export default {
   'locale.en': 'English',
   'locale.id': 'Bahasa Indonesia',
   'on.progress': 'Sedang dibikin cuy',
+  'present': 'Sekarang',
   'projects': 'Aplikasi',
   'resume': 'CV',
   'skills': 'Keahlian',
+  'tech.stacks': 'Teknologi',
   'work.experience': 'Pengalaman Kerja',
 }

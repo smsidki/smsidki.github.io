@@ -4,6 +4,7 @@
 
 import React from 'react';
 import { Tag } from 'antd';
+import { formatMessage } from 'umi/locale';
 import nexsoft from '@/assets/img/nexsoft.png';
 import conexus from '@/assets/img/conexus.png';
 import pactera from '@/assets/img/pactera.png';
@@ -18,11 +19,12 @@ class Experience extends React.Component {
       icon: nexsoft,
       iconBackground: '#ef4123',
       company: 'Paramadaksa Teknologi Nusantara (NexSoft)',
+      isCurrentCompany: true,
       location: 'Tangerang, Indonesia',
       website: 'http://nexsoft.co.id/',
       role: 'Team Leader, Full Stack Web Engineer',
       stacks: ['Java', 'Spring Boot', 'MySQL', 'Elastic', 'React', 'Git'],
-      duration: '2017 - present'
+      duration: '2017'
     },
     {
       icon: conexus,
@@ -56,7 +58,11 @@ class Experience extends React.Component {
           {this.experiences.map((exp, index) => (
             <VerticalTimelineElement
               key={index}
-              date={exp.duration}
+              date={
+                exp.isCurrentCompany ?
+                `${exp.duration} - ${formatMessage({ id: 'present' })}` :
+                exp.duration
+              }
               iconOnClick={this.goToCompanySite}
               className="vertical-timeline-element--work"
               iconStyle={{ background: exp.iconBackground || 'white', color: 'white' }}
@@ -66,7 +72,7 @@ class Experience extends React.Component {
               <h4>{exp.location}</h4>
               <p>{exp.role}</p>
               <div>
-                {'Tech Stacks: '}
+                {`${formatMessage({ id: 'tech.stacks'})}: `}
                 {exp.stacks.map((stack, index) => (
                   <Tag key={index} color={'blue'}>{stack}</Tag>
                 ))}

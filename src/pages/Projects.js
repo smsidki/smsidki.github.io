@@ -8,6 +8,7 @@ import anz from '@/assets/img/anz.png';
 import bca from '@/assets/img/bca.png';
 import qlik from '@/assets/img/qlik.png';
 import aviva from '@/assets/img/aviva.png';
+import { formatMessage } from 'umi/locale';
 import conexus from '@/assets/img/conexus.png';
 import nexsoft from '@/assets/img/nexsoft.png';
 import tlStyle from '@/assets/style/timeline.css';
@@ -137,7 +138,7 @@ class Projects extends React.Component {
               <h4>{project.company}</h4>
               <p>{project.desc}</p>
               <div>
-                {'Tech Stacks: '}
+                {`${formatMessage({ id: 'tech.stacks'})}: `}
                 {project.stacks.map((stack, index) => (
                   <Tag key={index} color={'blue'}>{stack}</Tag>
                 ))}
