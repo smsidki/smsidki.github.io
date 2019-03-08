@@ -25,7 +25,7 @@ class Projects extends React.Component {
       company: 'Paramadaksa Teknologi Nusantara (NexSoft)',
       desc: 'Middleware between NexSoft application and payment gateway',
       stacks: ['Java', 'Spring Boot', 'MySQL', 'Elastic', 'React', 'Git'],
-      duration: '2017 - present'
+      duration: '2019'
     },
     {
       icon: nexsoft,
@@ -34,7 +34,7 @@ class Projects extends React.Component {
       company: 'Paramadaksa Teknologi Nusantara (NexSoft)',
       desc: 'A warehouse management system application for retail industry',
       stacks: ['Java', 'Spring Boot', 'MySQL', 'Elastic', 'React', 'Git'],
-      duration: '2017 - present'
+      duration: '2018 - 2019'
     },
     {
       icon: bca,
@@ -42,7 +42,7 @@ class Projects extends React.Component {
       company: 'Paramadaksa Teknologi Nusantara (NexSoft)',
       desc: 'Provide and manage mutation data from BCA to NexSoft clients',
       stacks: ['Java', 'Spring Boot', 'MySQL', 'Elastic', 'React', 'Git'],
-      duration: '2017 - present'
+      duration: '2018'
     },
     {
       icon: qlik,
@@ -50,7 +50,7 @@ class Projects extends React.Component {
       company: 'Paramadaksa Teknologi Nusantara (NexSoft)',
       desc: 'Manage and embed Qlik Sense application to NexCloud',
       stacks: ['Java', 'Spring Boot', 'MySQL', 'Elastic', 'React', 'Git'],
-      duration: '2017 - present'
+      duration: '2018'
     },
     {
       icon: nexsoft,
@@ -59,7 +59,7 @@ class Projects extends React.Component {
       company: 'Paramadaksa Teknologi Nusantara (NexSoft)',
       desc: 'Library and API endpoint for master data area',
       stacks: ['Java', 'Spring Boot', 'MySQL', 'Elastic', 'React', 'Git'],
-      duration: '2017 - present'
+      duration: '2018'
     },
     {
       icon: nexsoft,
@@ -68,7 +68,7 @@ class Projects extends React.Component {
       company: 'Paramadaksa Teknologi Nusantara (NexSoft)',
       desc: 'Common library to develop REST Api using Spring Boot',
       stacks: ['Java', 'Spring Boot', 'MySQL', 'Elastic', 'React', 'Git'],
-      duration: '2017 - present'
+      duration: '2018'
     },
     {
       icon: nexsoft,
@@ -77,7 +77,7 @@ class Projects extends React.Component {
       company: 'Paramadaksa Teknologi Nusantara (NexSoft)',
       desc: 'Finance application for accounting process (journal)',
       stacks: ['Java', 'Spring Boot', 'MySQL', 'Elastic', 'React', 'Git'],
-      duration: '2017 - present'
+      duration: '2017 - 2018'
     },
     {
       icon: conexus,
@@ -93,7 +93,7 @@ class Projects extends React.Component {
       company: 'Pactera Jatis Indonesia',
       desc: 'Report and scheduling module for AstraLife application',
       stacks: ['Java', 'Spring', 'ZKoss', 'SQL Server', 'Subversion'],
-      duration: '2016 - 2017'
+      duration: '2017'
     },
     {
       icon: tokiomarine,
@@ -109,7 +109,7 @@ class Projects extends React.Component {
       company: 'Pactera Jatis Indonesia',
       desc: 'Provide interconnection between Asperindo members',
       stacks: ['Java', 'Spring', 'ZKoss', 'SQL Server', 'Subversion'],
-      duration: '2016 - 2017'
+      duration: '2016'
     },
     {
       icon: anz,
@@ -117,7 +117,7 @@ class Projects extends React.Component {
       company: 'Pactera Jatis Indonesia',
       desc: 'Platform for financial institutions’ wealth management needs',
       stacks: ['Java', 'Spring', 'ZKoss', 'SQL Server', 'Subversion'],
-      duration: '2016 - 2017'
+      duration: '2016'
     }
   ];
 
