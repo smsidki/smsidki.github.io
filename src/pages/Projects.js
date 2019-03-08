@@ -4,10 +4,15 @@
 
 import React from 'react';
 import { Tag } from 'antd';
-import nexsoft from '@/assets/img/nexsoft.png';
+import anz from '@/assets/img/anz.png';
+import bca from '@/assets/img/bca.png';
+import qlik from '@/assets/img/qlik.png';
+import aviva from '@/assets/img/aviva.png';
 import conexus from '@/assets/img/conexus.png';
-import pactera from '@/assets/img/pactera.png';
+import nexsoft from '@/assets/img/nexsoft.png';
 import tlStyle from '@/assets/style/timeline.css';
+import asperindo from '@/assets/img/asperindo.png';
+import tokiomarine from '@/assets/img/tokiomarine.png';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component/dist-es6';
 
 class Projects extends React.Component {
@@ -18,7 +23,7 @@ class Projects extends React.Component {
       iconBackground: '#ef4123',
       name: 'NexPayment',
       company: 'Paramadaksa Teknologi Nusantara (NexSoft)',
-      desc: 'Middleware to process payment between NexSoft clients and payment gateway',
+      desc: 'Middleware between NexSoft application and payment gateway',
       stacks: ['Java', 'Spring Boot', 'MySQL', 'Elastic', 'React', 'Git'],
       duration: '2017 - present'
     },
@@ -32,8 +37,7 @@ class Projects extends React.Component {
       duration: '2017 - present'
     },
     {
-      icon: nexsoft,
-      iconBackground: '#ef4123',
+      icon: bca,
       name: 'NexBank - BCA',
       company: 'Paramadaksa Teknologi Nusantara (NexSoft)',
       desc: 'Provide and manage mutation data from BCA to NexSoft clients',
@@ -41,8 +45,7 @@ class Projects extends React.Component {
       duration: '2017 - present'
     },
     {
-      icon: nexsoft,
-      iconBackground: '#ef4123',
+      icon: qlik,
       name: 'NexCloud - Qlik Sense',
       company: 'Paramadaksa Teknologi Nusantara (NexSoft)',
       desc: 'Manage and embed Qlik Sense application to NexCloud',
@@ -54,7 +57,7 @@ class Projects extends React.Component {
       iconBackground: '#ef4123',
       name: 'NexData - Master Area',
       company: 'Paramadaksa Teknologi Nusantara (NexSoft)',
-      desc: 'Library and API endpoint for master data area (country, district, etc)',
+      desc: 'Library and API endpoint for master data area',
       stacks: ['Java', 'Spring Boot', 'MySQL', 'Elastic', 'React', 'Git'],
       duration: '2017 - present'
     },
@@ -63,7 +66,7 @@ class Projects extends React.Component {
       iconBackground: '#ef4123',
       name: 'NexMint - Foundation',
       company: 'Paramadaksa Teknologi Nusantara (NexSoft)',
-      desc: 'Library (java) that provide common functionality to develop REST Api using Spring Boot',
+      desc: 'Common library to develop REST Api using Spring Boot',
       stacks: ['Java', 'Spring Boot', 'MySQL', 'Elastic', 'React', 'Git'],
       duration: '2017 - present'
     },
@@ -80,16 +83,39 @@ class Projects extends React.Component {
       icon: conexus,
       name: 'Digi-Office',
       company: 'Conexus Solusi',
-      desc: 'Office information system that provide common module in office operation',
+      desc: 'An information system to manage common office operation',
       stacks: ['Java', 'Spring Cloud', 'BPMN', 'PostgreSQL', 'Subversion'],
       duration: '2017'
     },
     {
-      icon: pactera,
-      iconBackground: '#003a81',
+      icon: aviva,
+      name: 'AstraLife - Satellite',
       company: 'Pactera Jatis Indonesia',
-      name: 'Jakarta, Indonesia',
-      desc: 'Team Leader, Associate Business Technologist',
+      desc: 'Report and scheduling module for AstraLife application',
+      stacks: ['Java', 'Spring', 'ZKoss', 'SQL Server', 'Subversion'],
+      duration: '2016 - 2017'
+    },
+    {
+      icon: tokiomarine,
+      name: 'Tokio Marine',
+      company: 'Pactera Jatis Indonesia',
+      desc: 'Migrate existing system from Spring to Apache Struts 2',
+      stacks: ['Java', 'Spring', 'ZKoss', 'SQL Server', 'Subversion'],
+      duration: '2016 - 2017'
+    },
+    {
+      icon: asperindo,
+      name: 'ALIS - Asperindo',
+      company: 'Pactera Jatis Indonesia',
+      desc: 'Provide interconnection between Asperindo members',
+      stacks: ['Java', 'Spring', 'ZKoss', 'SQL Server', 'Subversion'],
+      duration: '2016 - 2017'
+    },
+    {
+      icon: anz,
+      name: 'Avantrade - ANZ',
+      company: 'Pactera Jatis Indonesia',
+      desc: 'Platform for financial institutions’ wealth management needs',
       stacks: ['Java', 'Spring', 'ZKoss', 'SQL Server', 'Subversion'],
       duration: '2016 - 2017'
     }
