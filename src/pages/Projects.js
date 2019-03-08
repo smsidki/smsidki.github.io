@@ -14,7 +14,8 @@ import nexsoft from '@/assets/img/nexsoft.png';
 import tlStyle from '@/assets/style/timeline.css';
 import asperindo from '@/assets/img/asperindo.png';
 import tokiomarine from '@/assets/img/tokiomarine.png';
-import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component/dist-es6';
+import 'react-vertical-timeline-component/style.min.css';
+import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 
 class Projects extends React.Component {
 

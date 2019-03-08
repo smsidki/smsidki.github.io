@@ -2,6 +2,8 @@ import React from 'react';
 import { List, Menu, Row } from 'antd';
 import Skeleton from 'react-skeleton-loader';
 import SkillsPageSkeleton from '@/components/Loading/SkillsPageSkeleton';
+import TimelineSkeleton from '@/components/Loading/TimelineSkeleton';
+import _ from 'lodash';
 
 class SkeletonLoading extends React.Component {
 
@@ -27,16 +29,18 @@ class SkeletonLoading extends React.Component {
     return results;
   };
 
-  pathsWithCustomSkeleton = ['/skills'];
+  pathsWithCustomSkeleton = ['/experience', '/projects', '/skills'];
 
   pathSkeletonMap = {
+    experience: <TimelineSkeleton/>,
+    projects: <TimelineSkeleton/>,
     skills: <SkillsPageSkeleton/>
   };
 
   render() {
     const { pathname } = this.props.location;
     if (this.pathsWithCustomSkeleton.includes(pathname)) {
-      return this.pathSkeletonMap['skills'];
+      return this.pathSkeletonMap[_.replace(pathname, '/', '')];
     }
 
     return (
