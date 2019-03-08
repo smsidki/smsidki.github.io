@@ -3,6 +3,9 @@
  */
 
 import React from 'react';
+import { Row } from 'antd';
+import { formatMessage } from 'umi/locale';
+import chart from '@/assets/style/chart.css';
 import 'ant-design-pro/dist/ant-design-pro.css';
 import { Radar } from 'ant-design-pro/lib/Charts';
 
@@ -10,76 +13,87 @@ class Skills extends React.Component {
 
   skills = [
     {
-      name: ' ',
       label: 'Apache Struts 2',
-      value: 'once upon a time'
+      value: 'rarely',
     },
     {
-      name: ' ',
       label: 'JSP',
-      value: 'once upon a time'
+      value: 'rarely',
     },
     {
-      name: ' ',
       label: 'ZKoss',
-      value: 'once upon a time'
+      value: 'rarely',
     },
     {
-      name: ' ',
-      label: 'Camunda BPMN',
-      value: 'seldom'
-    },
-    {
-      name: ' ',
-      label: 'Elastic Search',
-      value: 'occasionally'
-    },
-    {
-      name: ' ',
-      label: 'Quartz Scheduler',
-      value: 'often'
-    },
-    {
-      name: ' ',
-      label: 'MySQL',
-      value: 'daily'
-    },
-    {
-      name: ' ',
       label: 'Thymeleaf',
-      value: 'seldom'
+      value: 'seldom',
     },
     {
-      name: ' ',
-      label: 'React',
-      value: 'often'
+      label: 'React - Redux',
+      value: 'sometimes',
     },
     {
-      name: ' ',
-      label: 'Umi',
-      value: 'often'
+      label: 'Umi JS',
+      value: 'often',
     },
     {
-      name: ' ',
-      label: 'SQL Server',
-      value: 'seldom'
+      label: 'React JS',
+      value: 'often',
     },
     {
-      name: ' ',
+      label: 'Camunda BPMN',
+      value: 'seldom',
+    },
+    {
+      label: 'Elastic Search',
+      value: 'sometimes',
+    },
+    {
+      label: 'Liquibase',
+      value: 'often',
+    },
+    {
+      label: 'SQL',
+      value: 'daily',
+    },
+    {
+      label: 'Quartz Scheduler',
+      value: 'often',
+    },
+    {
       label: 'Spring Boot',
-      value: 'daily'
-    }
+      value: 'daily',
+    },
   ];
+
+  translateSkillsToLocale = skills => {
+    return skills.map(skill => {
+      return Object.assign(
+        {},
+        skill,
+        {
+          name: formatMessage({ id: 'freq.used'}),
+          value: formatMessage({ id: `freq.${skill.value}` })
+        }
+      );
+    });
+  };
 
   render() {
     return (
-        <div>
+      <div className={chart.radar}>
+        <h2 style={{ textAlign: 'center' }}>
+          {formatMessage({ id: 'chart.skills.title'})}
+        </h2>
+        <Row>
           <Radar
-            height={350}
+            height={500}
+            padding={50}
             hasLegend={false}
-            data={this.skills}
+            data={this.translateSkillsToLocale(this.skills)}
           />
-        </div>
+        </Row>
+      </div>
     );
   }
 

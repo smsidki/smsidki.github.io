@@ -7,7 +7,7 @@ import { Tag } from 'antd';
 import nexsoft from '@/assets/img/nexsoft.png';
 import conexus from '@/assets/img/conexus.png';
 import pactera from '@/assets/img/pactera.png';
-import tlStyle from '@/assets/style/timeline.css';
+import timeline from '@/assets/style/timeline.css';
 import 'react-vertical-timeline-component/style.min.css';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 
@@ -51,7 +51,7 @@ class Experience extends React.Component {
 
   render() {
     return (
-      <div className={tlStyle.main}>
+      <div className={timeline.main}>
         <VerticalTimeline layout={'2-columns'}>
           {this.experiences.map((exp, index) => (
             <VerticalTimelineElement
