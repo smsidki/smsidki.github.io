@@ -1,6 +1,7 @@
 import React from 'react';
 import { List, Menu, Row } from 'antd';
 import Skeleton from 'react-skeleton-loader';
+import SkillsPageSkeleton from '@/components/Loading/Page/SkillsPageSkeleton';
 
 class SkeletonLoading extends React.Component {
 
@@ -26,7 +27,18 @@ class SkeletonLoading extends React.Component {
     return results;
   };
 
+  pathsWithCustomSkeleton = ['/skills'];
+
+  pathSkeletonMap = {
+    skills: <SkillsPageSkeleton/>
+  };
+
   render() {
+    const { pathname } = this.props.location;
+    if (this.pathsWithCustomSkeleton.includes(pathname)) {
+      return this.pathSkeletonMap['skills'];
+    }
+
     return (
       <div style={{ height: '100%', display: 'grid' }}>
         {/*
