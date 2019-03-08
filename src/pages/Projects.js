@@ -49,7 +49,7 @@ class Projects extends React.Component {
       name: 'NexCloud - Qlik Sense',
       company: 'Paramadaksa Teknologi Nusantara (NexSoft)',
       desc: 'Manage and embed Qlik Sense application to NexCloud',
-      stacks: ['Spring', 'Hibernate', 'MySQL', 'JSP'],
+      stacks: ['Spring', 'Java Servlet', 'Hibernate', 'MySQL', 'JSP'],
       duration: '2018'
     },
     {
@@ -58,7 +58,7 @@ class Projects extends React.Component {
       name: 'NexData - Master Area',
       company: 'Paramadaksa Teknologi Nusantara (NexSoft)',
       desc: 'Library and API endpoint for master data area',
-      stacks: ['Spring Boot', 'Liquibase', 'MySQL', 'Elastic'],
+      stacks: ['Spring Boot', 'Batch Job', 'Liquibase', 'MySQL', 'Elastic'],
       duration: '2018'
     },
     {
