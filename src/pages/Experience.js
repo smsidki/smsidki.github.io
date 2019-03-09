@@ -5,10 +5,10 @@
 import React from 'react';
 import { Tag } from 'antd';
 import { formatMessage } from 'umi/locale';
+import main from '@/assets/style/main.less';
 import nexsoft from '@/assets/img/nexsoft.png';
 import conexus from '@/assets/img/conexus.png';
 import pactera from '@/assets/img/pactera.png';
-import timeline from '@/assets/style/timeline.css';
 import 'react-vertical-timeline-component/style.min.css';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 
@@ -53,7 +53,7 @@ class Experience extends React.Component {
 
   render() {
     return (
-      <div className={timeline.main}>
+      <div className={main['content-background']}>
         <VerticalTimeline layout={'2-columns'}>
           {this.experiences.map((exp, index) => (
             <VerticalTimelineElement

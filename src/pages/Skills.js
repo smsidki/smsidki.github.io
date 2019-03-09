@@ -5,7 +5,7 @@
 import React from 'react';
 import { Row } from 'antd';
 import { formatMessage } from 'umi/locale';
-import chart from '@/assets/style/chart.css';
+import main from '@/assets/style/main.less';
 import 'ant-design-pro/dist/ant-design-pro.css';
 import { Radar } from 'ant-design-pro/lib/Charts';
 
@@ -81,7 +81,7 @@ class Skills extends React.Component {
 
   render() {
     return (
-      <div className={chart.radar}>
+      <div className={main['content-n-padding-top']}>
         <h2 style={{ textAlign: 'center' }}>
           {formatMessage({ id: 'chart.skills.title'})}
         </h2>

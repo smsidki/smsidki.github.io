@@ -9,10 +9,10 @@ import bca from '@/assets/img/bca.png';
 import qlik from '@/assets/img/qlik.png';
 import aviva from '@/assets/img/aviva.png';
 import { formatMessage } from 'umi/locale';
+import main from '@/assets/style/main.less';
 import conexus from '@/assets/img/conexus.png';
 import nexsoft from '@/assets/img/nexsoft.png';
 import asperindo from '@/assets/img/asperindo.png';
-import timeline from '@/assets/style/timeline.css';
 import tokiomarine from '@/assets/img/tokiomarine.png';
 import 'react-vertical-timeline-component/style.min.css';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
@@ -125,7 +125,7 @@ class Projects extends React.Component {
 
   render() {
     return (
-      <div className={timeline.main}>
+      <div className={main['content-background']}>
         <VerticalTimeline layout={'2-columns'}>
           {this.projects.map((project, index) => (
             <VerticalTimelineElement
