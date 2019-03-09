@@ -21,26 +21,26 @@ class About extends React.Component {
       icon: programmer,
       name: 'Career Highlights',
       desc: 'I currently work at NexSoft as a software engineer',
-      duration: '2016'
+      year: '2016'
     },
     {
       icon: graduate,
       name: 'Last Education',
       desc: 'Graduated from ITS Surabaya with an electrical engineer degree',
-      duration: '2015'
+      year: '2015'
     },
     {
       icon: dota,
       iconBackground: 'black',
       name: 'Dota 2',
       desc: 'Started playing this game, but no longer active currently',
-      duration: '2014'
+      year: '2014'
     },
     {
       icon: baby,
       name: 'Birthday',
       desc: 'I was born on April 13th in Banda Aceh',
-      duration: '1992'
+      year: '1992'
     }
   ];
 
@@ -77,7 +77,7 @@ class About extends React.Component {
               <VerticalTimelineElement
                 key={index}
                 className="vertical-timeline-element--work"
-                date={index === 0 ? formatMessage({ id: 'present' }) : bio.duration}
+                date={index === 0 ? formatMessage({ id: 'present' }) : bio.year}
                 iconStyle={{ background: bio.iconBackground || '#91d5ff', color: 'white' }}
                 icon={<img src={bio.icon} alt={'n/a'} className={'vertical-timeline-element-icon bounce-in'}/>}
               >
