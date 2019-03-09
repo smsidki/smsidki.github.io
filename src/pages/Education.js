@@ -5,7 +5,6 @@
 import React from 'react';
 import mtsn from '@/assets/img/mtsn.png';
 import eeits from '@/assets/img/eeits.png';
-import { formatMessage } from 'umi/locale';
 import main from '@/assets/style/main.less';
 import highschool from '@/assets/img/highschool.jpg';
 import 'react-vertical-timeline-component/style.min.css';
