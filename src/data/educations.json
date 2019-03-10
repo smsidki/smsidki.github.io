@@ -1,0 +1,29 @@
+[
+  {
+    "icon": "eeits",
+    "level": {
+      "en-US": "University",
+      "id-ID": "Universitas"
+    },
+    "institution": "Institut Teknologi Sepuluh Nopember, Electrical Engineering",
+    "year": "2010 - 2015"
+  },
+  {
+    "icon": "highschool",
+    "level": {
+      "en-US": "High School",
+      "id-ID": "SMA"
+    },
+    "institution": "SMAN Unggul Aceh Selatan, IPA",
+    "year": "2007 - 2010"
+  },
+  {
+    "icon": "mtsn",
+    "level": {
+      "en-US": "Middle School",
+      "id-ID": "SMP"
+    },
+    "institution": "MTs Negeri Samadua",
+    "year": "2004 - 2007"
+  }
+]

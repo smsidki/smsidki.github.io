@@ -1,0 +1,60 @@
+{
+  "biography": [
+    {
+      "icon": "programmer",
+      "name": {
+        "en-US": "Career Highlights",
+        "id-ID": "Karir"
+      },
+      "desc": {
+        "en-US": "I currently work at NexSoft as a Software Engineer",
+        "id-ID": "Sekarang berkarir di NexSoft sebagai Software Engineer"
+      },
+      "year": "2016"
+    },
+    {
+      "icon": "graduate",
+      "name": {
+        "en-US": "Last Education",
+        "id-ID": "Pendidikan Terakhir"
+      },
+      "desc": {
+        "en-US": "Graduated from ITS Surabaya with an Electrical Engineer degree",
+        "id-ID": "Alumni kampus ITS Surabaya jurusan Teknik Elektro"
+      },
+      "year": "2015"
+    },
+    {
+      "icon": "dota",
+      "iconBackground": "black",
+      "name": {
+        "en-US": "Dota 2",
+        "id-ID": "Dota 2"
+      },
+      "desc": {
+        "en-US": "Started playing this game, but no longer active currently",
+        "id-ID": "Mulai suka Dota, sekarang udah hampir ga pernah main sih."
+      },
+      "year": "2014"
+    },
+    {
+      "icon": "baby",
+      "name": {
+        "en-US": "Birthday",
+        "id-ID": "Ulang Tahun"
+      },
+      "desc": {
+        "en-US": "I was born on April 13th in Banda Aceh",
+        "id-ID": "Lahir tanggal 13 April '92 di kota Banda Aceh"
+      },
+      "year": "1992"
+    }
+  ],
+  "socialLinks": [
+    "https://www.instagram.com/smsidki/",
+    "https://github.com/smsidki",
+    "https://www.youtube.com/channel/UCJDD972RRbDdTomH_sn-iYg",
+    "https://id.linkedin.com/in/smsidki",
+    "https://plus.google.com/+smsidki"
+  ]
+}

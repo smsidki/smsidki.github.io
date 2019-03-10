@@ -22,10 +22,10 @@ class TopMenu extends React.Component {
 
   menus = [
     { key: 'about', icon: 'user', messageId: 'about.me' },
-    { key: 'experience', icon: 'rise', messageId: 'work.experience' },
+    { key: 'experiences', icon: 'rise', messageId: 'work.experience' },
     { key: 'projects', icon: 'code', messageId: 'projects' },
     { key: 'skills', icon: 'radar-chart', messageId: 'skills' },
-    { key: 'education', icon: 'read', messageId: 'education' },
+    { key: 'educations', icon: 'read', messageId: 'educations' },
     { key: 'resume', icon: 'book', messageId: 'resume' }
   ];
 

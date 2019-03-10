@@ -3,7 +3,7 @@ export default {
   'back.to.home': 'Ke halaman awal',
   'chart.skills.title': 'Berdasarkan frekuensi pemakaian',
   'download.pdf': 'Unduh PDF',
-  'education': 'Pendidikan',
+  'educations': 'Pendidikan',
   'error.404.desc': 'Halaman tidak ditemukan',
   'freq.used': 'Digunakan',
   'freq.daily': 'Hampir selalu',

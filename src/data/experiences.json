@@ -1,0 +1,52 @@
+[
+  {
+    "icon": "nexsoft",
+    "iconBackground": "#ef4123",
+    "company": "Paramadaksa Teknologi Nusantara (NexSoft)",
+    "isCurrentCompany": true,
+    "location": "Tangerang, Indonesia",
+    "website": "http://nexsoft.co.id/",
+    "role": "Team Leader, Full Stack Web Engineer",
+    "stacks": [
+      "Java",
+      "Spring Boot",
+      "MySQL",
+      "Elastic",
+      "React",
+      "Git"
+    ],
+    "duration": "2017"
+  },
+  {
+    "icon": "conexus",
+    "company": "Conexus Solusi",
+    "location": "Jakarta, Indonesia",
+    "website": "https://conexus.co.id/",
+    "role": "Software Engineer",
+    "stacks": [
+      "Java",
+      "Spring Cloud",
+      "BPMN",
+      "PostgreSQL",
+      "Subversion"
+    ],
+    "duration": "2017"
+  },
+  {
+    "icon": "pactera",
+    "iconBackground": "#003a81",
+    "company": "Pactera Jatis Indonesia",
+    "location": "Jakarta, Indonesia",
+    "website": "http://www.jatis.com/index.php/pactera-jatis-indonesia/",
+    "role": "Team Leader, Associate Business Technologist",
+    "stacks": [
+      "Java",
+      "Spring",
+      "ZKoss",
+      "SQL Server",
+      "Git",
+      "Subversion"
+    ],
+    "duration": "2016 - 2017"
+  }
+]

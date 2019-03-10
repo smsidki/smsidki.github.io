@@ -3,7 +3,7 @@ export default {
   'back.to.home': 'Back to home',
   'chart.skills.title': 'Based on frequency of usage',
   'download.pdf': 'Download PDF',
-  'education': 'Education',
+  'educations': 'Educations',
   'error.404.desc': `Page you're looking is not found`,
   'freq.used': 'Used',
   'freq.daily': 'Daily',
@@ -20,5 +20,5 @@ export default {
   'resume': 'Resume',
   'skills': 'Skills',
   'tech.stacks': 'Tech Stacks',
-  'work.experience': 'Experience',
+  'work.experience': 'Experiences',
 }
