@@ -1,8 +1,8 @@
 import _ from 'lodash';
 import React from 'react';
 import Link from 'umi/link';
-import { Col, Icon, Menu, Row } from 'antd';
 import windowSize from 'react-window-size';
+import { Col, Icon, Menu, Row } from 'antd';
 import { formatMessage, getLocale, setLocale } from 'umi/locale';
 
 class TopMenu extends React.Component {
@@ -26,6 +26,7 @@ class TopMenu extends React.Component {
     { key: 'projects', icon: 'code', messageId: 'projects' },
     { key: 'skills', icon: 'radar-chart', messageId: 'skills' },
     { key: 'education', icon: 'read', messageId: 'education' },
+    { key: 'resume', icon: 'book', messageId: 'resume' }
   ];
 
   buildMenu = () => (
@@ -42,15 +43,6 @@ class TopMenu extends React.Component {
           </Link>
         </Menu.Item>
       ))}
-      <Menu.Item key={'resume'}>
-        <a
-          target='_blank'
-          rel='noopener noreferrer'
-          href='https://drive.google.com/file/d/0B_5PrdOsPnCARWx5VUJnWjZZLUk/view'>
-          <Icon type={'book'}/>
-          {formatMessage({ id: 'resume' })}
-        </a>
-      </Menu.Item>
       <Menu.SubMenu
         key={'locale'}
         title={
@@ -73,7 +65,7 @@ class TopMenu extends React.Component {
   onMenuClick = e => {
     if (_.map(this.locales, 'key').includes(e.key)) {
       setLocale(e.key);
-    } else if ('resume' !== e.key) {
+    } else {
       this.setState({ currentMenu: e.key });
     }
   };

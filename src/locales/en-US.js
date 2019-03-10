@@ -2,6 +2,7 @@ export default {
   'about.me': 'About',
   'back.to.home': 'Back to home',
   'chart.skills.title': 'Based on frequency of usage',
+  'download.pdf': 'Download PDF',
   'education': 'Education',
   'error.404.desc': `Page you're looking is not found`,
   'freq.used': 'Used',

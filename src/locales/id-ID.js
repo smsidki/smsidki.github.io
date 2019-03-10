@@ -2,6 +2,7 @@ export default {
   'about.me': 'Tentang Saya',
   'back.to.home': 'Ke halaman awal',
   'chart.skills.title': 'Berdasarkan frekuensi pemakaian',
+  'download.pdf': 'Unduh PDF',
   'education': 'Pendidikan',
   'error.404.desc': 'Halaman tidak ditemukan',
   'freq.used': 'Digunakan',
