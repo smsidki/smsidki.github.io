@@ -1,4 +1,5 @@
 import React from 'react';
+import { pdfjs } from 'react-pdf';
 import { Document, Page } from 'react-pdf';
 import { formatMessage } from 'umi/locale';
 import main from '@/assets/style/main.less';
@@ -6,6 +7,9 @@ import resume from '@/assets/doc/resume.pdf';
 import 'react-pdf/dist/Page/AnnotationLayer.css';
 import { Button, Col, Pagination, Row } from 'antd';
 import SpinLoading from '@/components/Loading/SpinLoading';
+
+// noinspection JSUnresolvedVariable
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 class Resume extends React.Component {
 
