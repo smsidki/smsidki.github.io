@@ -1,3 +1,7 @@
+/**
+ * title: smsidki | Resume
+ */
+
 import React from 'react';
 import { pdfjs } from 'react-pdf';
 import { Document, Page } from 'react-pdf';
