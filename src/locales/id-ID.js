@@ -16,7 +16,7 @@ export default {
   'locale.id': 'Bahasa Indonesia',
   'on.progress': 'Sedang dibikin cuy',
   'present': 'Sekarang',
-  'projects': 'Aplikasi',
+  'projects': 'Proyek',
   'resume': 'CV',
   'skills': 'Keahlian',
   'tech.stacks': 'Teknologi',
