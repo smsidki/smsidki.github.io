@@ -13,6 +13,7 @@ import { formatMessage } from 'umi/locale';
 import main from '@/assets/style/main.less';
 import conexus from '@/assets/img/conexus.png';
 import nexsoft from '@/assets/img/nexsoft.png';
+import gromart from '@/assets/img/gromart.png';
 import asperindo from '@/assets/img/asperindo.png';
 import tokiomarine from '@/assets/img/tokiomarine.png';
 import 'react-vertical-timeline-component/style.min.css';
@@ -20,7 +21,7 @@ import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeli
 
 class Projects extends React.Component {
 
-  icons = { anz, bca, qlik, aviva, conexus, nexsoft, asperindo, tokiomarine };
+  icons = { anz, bca, qlik, aviva, conexus, nexsoft, gromart, asperindo, tokiomarine };
 
   render() {
     // noinspection JSUnresolvedVariable

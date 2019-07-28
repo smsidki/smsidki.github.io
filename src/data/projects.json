@@ -1,34 +1,16 @@
 [
   {
-    "icon": "nexsoft",
-    "iconBackground": "#ef4123",
-    "name": "NexPayment",
+    "icon": "gromart",
+    "name": "GroMart - Search & Promotion",
     "company": "Paramadaksa Teknologi Nusantara (NexSoft)",
-    "desc": "Middleware between NexSoft application and payment gateway",
+    "desc": "Search engine and promotion module for GroMart",
     "stacks": [
       "Spring Boot",
-      "Web Socket",
-      "Redis",
-      "MySQL",
-      "React"
+      "Elastic Search",
+      "Rabbit MQ",
+      "MySQL"
     ],
     "duration": "2019"
-  },
-  {
-    "icon": "nexsoft",
-    "iconBackground": "#ef4123",
-    "name": "NexHouse",
-    "company": "Paramadaksa Teknologi Nusantara (NexSoft)",
-    "desc": "A warehouse management system application for retail industry",
-    "stacks": [
-      "Spring Boot",
-      "Redis",
-      "MySQL",
-      "Elastic",
-      "React",
-      "Umi"
-    ],
-    "duration": "2018 - 2019"
   },
   {
     "icon": "bca",
@@ -54,36 +36,6 @@
       "Hibernate",
       "MySQL",
       "JSP"
-    ],
-    "duration": "2018"
-  },
-  {
-    "icon": "nexsoft",
-    "iconBackground": "#ef4123",
-    "name": "NexData - Master Area",
-    "company": "Paramadaksa Teknologi Nusantara (NexSoft)",
-    "desc": "Library and API endpoint for master data area",
-    "stacks": [
-      "Spring Boot",
-      "Batch Job",
-      "Liquibase",
-      "MySQL",
-      "Elastic"
-    ],
-    "duration": "2018"
-  },
-  {
-    "icon": "nexsoft",
-    "iconBackground": "#ef4123",
-    "name": "NexMint - Foundation",
-    "company": "Paramadaksa Teknologi Nusantara (NexSoft)",
-    "desc": "Common library to develop REST Api using Spring Boot",
-    "stacks": [
-      "Spring Boot",
-      "Security",
-      "MapStruct",
-      "MySQL",
-      "Elastic"
     ],
     "duration": "2018"
   },
@@ -142,20 +94,6 @@
       "JSP"
     ],
     "duration": "2016 - 2017"
-  },
-  {
-    "icon": "asperindo",
-    "name": "ALIS - Asperindo",
-    "company": "Pactera Jatis Indonesia",
-    "desc": "Provide interconnection between Asperindo members",
-    "stacks": [
-      "NPM",
-      "React",
-      "React - Redux",
-      "Babel",
-      "Webpack"
-    ],
-    "duration": "2016"
   },
   {
     "icon": "anz",
